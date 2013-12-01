@@ -5,7 +5,7 @@ Excel Formulae
 
 Count the number of guests in a row based on the number of names or the use of & in the title, e.g. "Mr. & Mrs."
 
-	=COUNTA(D2,G2) + IF(REGEXMATCH(C2, "&"),1,0) + LEN(H2)-LEN(SUBSTITUTE(H2," ",""))
+	==COUNTA(C73,F73) + IF(REGEXMATCH(B73, "&"),1,0) + len(G73)-len(substitute(G73," ","")) + IF(B73="The Doctors",1,0)
     
 - `COUNTA` counts the two name columns
 - `IF` statement counts +1 if title contains `&`
