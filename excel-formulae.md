@@ -9,7 +9,7 @@ Count the number of guests in a row based on the number of names or the use of &
 - `COUNTA` counts the two name columns
 - `IF` statement counts +1 if title contains `&`
 - `REGEXMATCH` finds the string "&" in a cell
-- `LEN` and `SUBSTITUTE` Count number of words in a cell http://productforums.google.com/d/msg/docs/PUkTBR_Bm30/iv-0UC1-DsAJ
+- `LEN` and `SUBSTITUTE` Count number of words in a cell [*Source: Google Product Forums*](http://productforums.google.com/d/msg/docs/PUkTBR_Bm30/iv-0UC1-DsAJ)
 
 Count total number of invited guests in list 
 
