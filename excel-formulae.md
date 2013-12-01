@@ -8,6 +8,7 @@ Count the number of guests in a row based on the number of names or the use of &
     
 - `COUNTA` counts the two name columns
 - `IF` statement counts +1 if title contains `&`
+- `REGEXMATCH` finds the string "&" in a cell 
 
 Count total number of invited guests in list 
 
